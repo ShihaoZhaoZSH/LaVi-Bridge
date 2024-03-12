@@ -1,0 +1,24 @@
+name: lavi-bridge
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pytorch-cuda=11.7
+  - pytorch=2.0.1
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+    - diffusers==0.24.0
+    - transformers==4.38.0
+    - accelerate==0.24.1
+    - safetensors==0.4.1
+    - tokenizers==0.15.1
+    - xformers==0.0.22
+    - peft==0.8.2
+    - huggingface-hub
+    - sentencepiece
+    - protobuf
+    - tqdm
+    - pillow
