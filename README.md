@@ -55,8 +55,8 @@ If you want to train on CLIP text encoder, T5-Small, T5-Base, or U-Net(LDM), you
 
 This repo is built upon the [repository](https://github.com/cloneofsimo/lora) and really thank to their great work!
 
-<!---## 📖 : Citation
+## 📖 : Citation
 
 ```bibtex
-xxx
-```-->
+on the way
+```
