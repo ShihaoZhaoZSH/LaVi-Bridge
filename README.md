@@ -1,6 +1,6 @@
 # Bridging Different Language Models and Generative Vision Models for Text-to-Image Generation
 
-### [Project Page](https://shihaozhaozsh.github.io/LaVi-Bridge/) <!---| [Paper (ArXiv)](xxx)-->
+### [Project Page](https://shihaozhaozsh.github.io/LaVi-Bridge/) | [Paper (ArXiv)](https://arxiv.org/abs/2403.07860)
 
 Official implementation of Bridging Different Language Models and Generative Vision Models for Text-to-Image Generation.
 
