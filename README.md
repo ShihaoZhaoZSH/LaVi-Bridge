@@ -6,7 +6,7 @@ Official implementation of Bridging Different Language Models and Generative Vis
 
 <img width="800" alt="image" src="./figs/overview.png">
 
-LaVi-Bridge is designed for text-to-image diffusion models and serves as a bridge, which enables the integration of diverse pre-trained language models and generative vision models for text-to-image generation. By leveraging LoRA and adapters, LaVi-Bridge offers a flexible and plug-and-play approach without requiring modifications to the original weights of the language and vision models. <!---For more technical details, please refer to our [paper](xxx).-->
+LaVi-Bridge is designed for text-to-image diffusion models and serves as a bridge, which enables the integration of diverse pre-trained language models and generative vision models for text-to-image generation. By leveraging LoRA and adapters, LaVi-Bridge offers a flexible and plug-and-play approach without requiring modifications to the original weights of the language and vision models. For more technical details, please refer to our [paper](https://arxiv.org/abs/2403.07860).
 
 ## ⚙ : Setup
 
