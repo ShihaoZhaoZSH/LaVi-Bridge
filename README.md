@@ -8,6 +8,7 @@ Official implementation of Bridging Different Language Models and Generative Vis
 
 LaVi-Bridge is designed for text-to-image diffusion models and serves as a bridge, which enables the integration of diverse pre-trained language models and generative vision models for text-to-image generation. By leveraging LoRA and adapters, LaVi-Bridge offers a flexible and plug-and-play approach without requiring modifications to the original weights of the language and vision models. For more technical details, please refer to our [paper](https://arxiv.org/abs/2403.07860).
 
+
 ## ⚙ : Setup
 
 You should create a new conda environment first by:
@@ -16,6 +17,7 @@ You should create a new conda environment first by:
     conda activate lavi-bridge
 
 You can download the pre-trained LoRA and adapters from the [link](https://huggingface.co/shihaozhao/LaVi-Bridge/tree/main). We provide weights for three different combinations: `T5-Large + U-Net(SD)`, `Llama-2 + U-Net(SD)` and `T5-Large + Transformer(PixArt)`.
+
 
 ## 💻 : Test
 
@@ -31,6 +33,7 @@ It's important to note that for running `Llama-2 + U-Net(SD)`, you need to first
 Here are some visualization results:
 
 <img width="800" alt="image" src="./figs/results.png">
+
 
 ## ☕️ : Training
 
@@ -51,9 +54,18 @@ In `./train/run.sh`, make sure to set the `--anno_path` to the path of your capt
 
 If you want to train on CLIP text encoder, T5-Small, T5-Base, or U-Net(LDM), you can refer to `./train/t5_unet.py`. Simply change the corresponding model in the script, and it should work accordingly.
 
+
+## 💡 : Others:
+
+Our paper is working on a promising field that has not been well-explored yet. We are delighted to have found another concurrent work on this topic. We welcome everyone to pay attention to it and contribute to the development of this direction together!
+
+[ELLA: Equip Diffusion Models with LLM for Enhanced Semantic Alignment](https://github.com/ELLA-Diffusion/ELLA)
+
+
 ## 🎉 : Acknowledgments:
 
 This repo is built upon the [repository](https://github.com/cloneofsimo/lora) and really thank to their great work!
+
 
 ## 📖 : Citation
 
