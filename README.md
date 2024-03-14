@@ -59,7 +59,7 @@ If you want to train on CLIP text encoder, T5-Small, T5-Base, or U-Net(LDM), you
 
 Our paper is working on a promising field that has not been well-explored yet. We are delighted to have found another concurrent work on this topic. We welcome everyone to pay attention to it and contribute to the development of this direction together!
 
-[ELLA: Equip Diffusion Models with LLM for Enhanced Semantic Alignment](https://github.com/ELLA-Diffusion/ELLA)
+[ELLA: Equip Diffusion Models with LLM for Enhanced Semantic Alignment](https://arxiv.org/abs/2403.05135)
 
 
 ## 🎉 : Acknowledgments
