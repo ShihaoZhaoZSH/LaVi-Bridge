@@ -70,5 +70,10 @@ This repo is built upon the [repository](https://github.com/cloneofsimo/lora) an
 ## 📖 : Citation
 
 ```bibtex
-on the way
+@article{zhao2024bridging,
+  title={Bridging Different Language Models and Generative Vision Models for Text-to-Image Generation},
+  author={Zhao, Shihao and Hao, Shaozhe and Zi, Bojia and Xu, Huaizhe and Wong, Kwan-Yee K},
+  journal={arXiv preprint arXiv:2403.07860},
+  year={2024}
+}
 ```
