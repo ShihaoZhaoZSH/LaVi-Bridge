@@ -32,6 +32,7 @@ def main(args, prompts):
     num_inference_steps = 50
     guidance_scale = 7.5
     torch_device = "cuda"
+    pos_prompt = ", best quality, extremely detailed, 4k resolution"
 
     # Modules of T2I diffusion models
     vae = AutoencoderKL.from_pretrained("PixArt-alpha/PixArt-XL-2-512x512", subfolder="vae").to(torch_device)
@@ -64,6 +65,8 @@ def main(args, prompts):
     with torch.no_grad():
         for prompt in prompts:
             print(prompt)
+            orig_prompt = prompt
+            prompt += pos_prompt
 
             # Text embeddings
             text_inputs = tokenizer(prompt, padding="max_length", max_length=120, add_special_tokens=True, return_tensors="pt", truncation=True).to(torch_device)
@@ -106,7 +109,7 @@ def main(args, prompts):
             image = (image / 2 + 0.5).clamp(0, 1).squeeze()
             image = (image.permute(1, 2, 0) * 255).to(torch.uint8).cpu().numpy()
             image = Image.fromarray(image)
-            image.save(f"{args.output_dir}/{prompt[: 200]}.png")
+            image.save(f"{args.output_dir}/{orig_prompt[: 200]}.png")
 
 
 if __name__ == "__main__":
