@@ -1,4 +1,4 @@
-# Bridging Different Language Models and Generative Vision Models for Text-to-Image Generation
+# [ECCV 2024] Bridging Different Language Models and Generative Vision Models for Text-to-Image Generation
 
 ### [Project Page](https://shihaozhaozsh.github.io/LaVi-Bridge/) | [Paper (ArXiv)](https://arxiv.org/abs/2403.07860)
 
@@ -72,8 +72,8 @@ This repo is built upon the [repository](https://github.com/cloneofsimo/lora) an
 ```bibtex
 @article{zhao2024bridging,
   title={Bridging Different Language Models and Generative Vision Models for Text-to-Image Generation},
-  author={Zhao, Shihao and Hao, Shaozhe and Zi, Bojia and Xu, Huaizhe and Wong, Kwan-Yee K},
-  journal={arXiv preprint arXiv:2403.07860},
+  author={Zhao, Shihao and Hao, Shaozhe and Zi, Bojia and Xu, Huaizhe and Wong, Kwan-Yee~K.},
+  journal={ECCV},
   year={2024}
 }
 ```
